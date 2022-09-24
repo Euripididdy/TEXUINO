@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/bluetooth_devices_layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bluetooth_devices_list"
+        android:layout_gravity="center_vertical"
+        android:choiceMode="singleChoice"
+        android:listSelector="#626262"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:background="@android:color/white"
+        android:clickable="false"
+        android:drawSelectorOnTop="false"/>
+</LinearLayout>

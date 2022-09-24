@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:padding="5dp"
+              android:gravity="center_vertical"
+              android:layoutDirection="ltr"
+              android:background="@color/darkGrey">
+
+    <ImageView
+        android:id="@+id/groupLogo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="15dp"
+        android:src="@mipmap/ic_launcher" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/groupLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:gravity="center_vertical"
+        android:textColor="@color/mediumGrey"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall">
+    </TextView>
+
+</LinearLayout>
